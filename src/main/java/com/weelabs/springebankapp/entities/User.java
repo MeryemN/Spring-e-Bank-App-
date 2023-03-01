@@ -1,4 +1,4 @@
-package com.weelabs.springebankapp;
+package com.weelabs.springebankapp.entities;
 
 import jakarta.persistence.*;
 import java.util.Set;
@@ -11,6 +11,7 @@ public class User {
     private Long id;
     private String firstName;
     private String lastName;
+    @Column(unique = true)
     private String email;
     private String password;
     private Boolean enabled;

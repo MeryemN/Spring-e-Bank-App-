@@ -1,7 +1,6 @@
-package com.weelabs.springebankapp;
+package com.weelabs.springebankapp.entities;
 
 import jakarta.persistence.*;
-
 
 @Entity
 @Table(name = "accounts")
